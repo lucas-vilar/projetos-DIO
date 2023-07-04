@@ -55,10 +55,10 @@ class Conta:
         saldo = self._saldo
 
         if valor_saque > saldo:
-            print('Não foi possível realizar o saque. Valor insuficiente!')
+            print('\nNão foi possível realizar o saque. Valor insuficiente!')
         elif valor_saque > 0:
             self._saldo -= valor_saque
-            print('Saque realizado com sucesso!')
+            print('\nSaque realizado com sucesso!')
             return True
         else:
             print('Não foi possível realizar o saque. Valor inválido!')
