@@ -2,7 +2,7 @@ import pymongo as pyM
 import pprint
 
 # Conectando e criando o banco de dados
-client = pyM.MongoClient("mongodb+srv://lucasvilar12:HU7zi7ufVehol5g8@cluster0.9hi9eut.mongodb.net/?retryWrites=true&w=majority")
+client = pyM.MongoClient("mongodb+srv://lucasvilar12:<password>@cluster0.9hi9eut.mongodb.net/?retryWrites=true&w=majority")
 db = client.bank_db
 collection =  db.bank
 
